@@ -1,0 +1,8 @@
+import sys
+import operator
+if len(sys.argv) >= 2:
+    int(a) = sys.argv[1]
+    int(b) = sys.argv[2]
+    print(a+b)
+else:
+    print("usage: python3 solution.py OP1 OP2")
