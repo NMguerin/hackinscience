@@ -4,6 +4,7 @@ def love_meet(L1, L2):
     L3 = L1 & L2
     return(L3)
 
+
 def affair_meet(L1, L2, L3):
     L1 = set(L1)
     L2 = set(L2)
