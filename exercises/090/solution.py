@@ -1,4 +1,3 @@
 import sys
-alpha = list(enumerate(sys.argv))
-for i in range(len(sys.argv)):
-    print(alpha[i])
+for i, j in enumerate(sys.argv):
+    print(i, j)
